@@ -11,14 +11,14 @@ const Login = () => {
   const handleGoogleLogin = () => {
     console.log("Google Login");
     
-        router.push('/(root)/(tabs)/profile');
+        router.push('/');
   }
 
   const handleLogin = () => {
     console.log("Login clicked");
     Alert.alert("Login Successful");
     
-        router.push('/(root)/(tabs)/profile');
+        router.push('/');
   }
 
   return (

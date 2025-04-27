@@ -50,6 +50,9 @@
     "experiments": {
       "typedRoutes": true
     },
-    "permissions": ["ACCESS_FINE_LOCATION", "ACCESS_COARSE_LOCATION"]
+    "permissions": ["ACCESS_FINE_LOCATION", 
+    "ACCESS_COARSE_LOCATION", 
+    "ACCESS_BACKGROUND_LOCATION",
+    "FOREGROUND_SERVICE"]
   }
 }

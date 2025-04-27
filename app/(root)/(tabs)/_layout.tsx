@@ -7,8 +7,7 @@ const TabIcon = ({ focused, icon, title }: { focused: boolean; icon: any, title:
         <Text className={`${focused ? 'text-primary-300 font-rubik-medium' : 'text-black-200 font-rubik'} text-xs w-full text-center mt-1`}>{title}</Text>
     </View>
 )
-const TabsLayout = () => {
-    const focused = true;
+const TabsLayout = () => { 
     return (
         <Tabs
             screenOptions={{
@@ -32,16 +31,16 @@ const TabsLayout = () => {
                     ),
                 }}
             />
-            {/* <Tabs.Screen
-                name="explore"
+            <Tabs.Screen
+                name="manualattendance"
                 options={{
-                    title: "Explore",
+                    title: "Manual Attendance",
                     headerShown: false,
                     tabBarIcon: ({ focused }) => (
-                        <TabIcon focused={focused} icon={icons.search} title="Explore" />
+                        <TabIcon focused={focused} icon={icons.search} title="ManualAttendance" />
                     ),
                 }}
-            /> */}
+            />
             <Tabs.Screen
                 name="profile"
                 options={{
