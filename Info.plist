@@ -1,0 +1,8 @@
+<key>UIBackgroundModes</key>
+<array>
+  <string>location</string>
+</array>
+<key>NSLocationWhenInUseUsageDescription</key>
+<string>We need your location to provide better service.</string>
+<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+<string>We need your location even in the background.</string>
